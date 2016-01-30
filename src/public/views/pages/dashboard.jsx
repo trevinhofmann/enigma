@@ -50,7 +50,7 @@ export default React.createClass({
         return (
             <div id='dashboard' className='page'>
                 <form className='pure-form'>
-                    <input id='search' className='block' type='text' value={this.state.search} onChange={this.handleChange} placeholder='Search for a password' autocomplete='off' />
+                    <input id='search' className='block' type='text' value={this.state.search} onChange={this.handleChange} placeholder='Search for a password' autoComplete='off' />
                     <Suggestions suggestions={this.getSuggestions()} />
                 </form>
             </div>
